@@ -85,6 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Hot, Fast & Healthy Bites" },
       { name: "description", content: "Quick, healthy, beginner-friendly recipes for busy people." },
+      { name: "p:domain_verify", content: "bde7e57adadaa0f3c602457ccee2c486" },
       { property: "og:title", content: "Hot, Fast & Healthy Bites" },
       { property: "og:description", content: "Quick, healthy, beginner-friendly recipes for busy people." },
       { property: "og:type", content: "website" },
