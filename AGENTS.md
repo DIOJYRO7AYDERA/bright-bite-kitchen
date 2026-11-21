@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Recipe content lives in src/data/recipes.ts and site links (Pinterest URL) in src/data/site.ts — pages read from these so content is editable in one place.
